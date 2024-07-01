@@ -1,0 +1,47 @@
+[System]
+Output filename=C:\Users\jsemprini\OneDrive - University of Iowa\4-Misc Projects\a-Wild-Cancer\raw\all.txt
+Matrix filename=Case Listing Session-1 Matrix-2
+Database name=Incidence - SEER Research Plus Limited-Field Data, 22 Registries, Nov 2022 Sub (2000-2020) - Linked To County Attributes - Time Dependent (1990-2021) Income/Rurality, 1969-2021 Counties
+
+[Session Options]
+Type=Case Listing
+
+[Export Options]
+GZipped=false
+Variable format=labels
+File format=DOS/Windows
+Field delimiter=comma
+Missing character=period
+Fields with delimiter in quotes=true
+Remove thousands separators=true
+Variable names included=false
+Column Variables as Stats=false
+
+[Variables]
+Var1Name=Combined Summary Stage (2004+)
+Var1DisplayType=Formatted
+Var2Name=Months from diagnosis to treatment
+Var2DisplayType=Formatted
+Var3Name=Reason no cancer-directed surgery (2006+)
+Var3DisplayType=Formatted
+Var4Name=Year of death recode
+Var4DisplayType=Formatted
+Var5Name=Year of diagnosis
+Var5DisplayType=Formatted
+Var6Name=SEER registry (with CA and GA as whole states)
+Var6DisplayType=Formatted
+Var7Name=Age recode with <1 year olds
+Var7DisplayType=Formatted
+Var8Name=Sex
+Var8DisplayType=Formatted
+Var9Name=Race and origin recode (NHW, NHB, NHAIAN, NHAPI, Hispanic)
+Var9DisplayType=Formatted
+Var10Name=Marital status at diagnosis
+Var10DisplayType=Formatted
+Var11Name=Median household income inflation adj to 2021
+Var11DisplayType=Formatted
+Var12Name=Rural-Urban Continuum Code
+Var12DisplayType=Formatted
+Var13Name=Site recode ICD-O-3/WHO 2008
+Var13DisplayType=Formatted
+
